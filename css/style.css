@@ -1,0 +1,73 @@
+@font-face {
+    font-family: lobo;
+    src: url(../font/ELRIOTT2.ttf);
+}
+
+*	{
+	margin: 0px;
+}
+
+header {
+	background-color: #A22237;
+	text-align: center;
+	padding: 50px;
+	margin: 0px;
+}
+
+header h1 {
+	color: orange;
+	text-align: center;
+	font-family:lobo, helvetica;
+	font-size: 40px;
+}
+
+h2{
+	color: #fff;
+	text-align: center;
+	font-size: 26px;
+}
+
+.cuzco	{
+	background: #0688BF;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.cuzco img {
+	width: 600px;
+}
+
+.oblina {
+	text-align: right;
+	background-image: url("../img/cuzco2.jpg");
+	background-size: cover;
+	height: 800px;
+	}
+
+.oblina-texto {
+	text-align: right;
+	color: #fff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 22px
+}
+
+.oblina-texto h2{
+	text-align: right;
+	color: orange;
+ 	font-family: lobo;
+ 	font-size: 26px;
+}
+
+.oblina-texto p{
+	font-size: 16px;
+}
+
+.precios {
+	padding: 30px;
+	font-family: lobo;
+	text-align: center;
+	font-size: 50px;
+	padding-bottom: 10px;
+ }
