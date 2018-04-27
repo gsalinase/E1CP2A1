@@ -1,0 +1,94 @@
+/* Import Font */
+
+@font-face {
+    font-family: lobo;
+    src: url(../font/ELRIOTT2.ttf);
+}
+
+/* Global styles */
+
+* {
+	margin: 0px;
+}
+
+h1, h2{
+  font-family: 'lobo', helvetica;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+/* Hero */
+
+.hero {
+	background-color: #A22237;
+	text-align: center;
+	padding: 50px;
+}
+
+.hero h1 {
+	color: orange;
+	text-align: center;
+}
+
+.hero h3{
+	color: #fff;
+	text-align: center;
+}
+
+/* Cuzco */
+
+.cuzco	{
+	background: #0688BF;
+	text-align: center;
+	padding: 15px;
+}
+
+.cuzco img {
+	width: 600px;
+}
+
+/* Oblina */
+
+.oblina {
+	text-align: right;
+  height: 800px;
+	background-image: url("../img/cuzco2.jpg");
+	background-size: cover;
+  color: #fff;
+	}
+
+.oblina h2 {
+	text-align: right;
+	color: orange;
+ 	font-size: 26px;
+}
+
+/* Commerce */
+
+.commerce {
+  font-family: 'lobo', helvetica;
+	padding: 100px;
+	text-align: center;
+}
+
+.commerce h2 {
+  padding-bottom: 20px;
+}
+
+.commerce li {
+  list-style: none;
+}
+
+.commerce h2, .commerce li {
+  font-size: 75px;
+}
